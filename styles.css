@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Gabarito&display=swap');
+
+html {
+    font-family: gabarito, sans-serif;
+}
+
+main {
+  margin-top: 100px;
+}
+
+header {
+  background: linear-gradient(to right, rgb(204, 102, 255), rgb(153, 255, 255),rgb(255,255,255));
+  border-bottom: 1px solid #555555;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  opacity: 90%;
+}
+
+header h1 {
+  opacity: 100%;
+  text-align: right;
+  width: 95%;
+  font-size: 2rem;
+  letter-spacing: .25rem;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  background: linear-gradient( 
+            to right, #f32170, #ff6b08, 
+             #cf23cf, #eedd44); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+}
+
+body {
+  background: linear-gradient(-45deg, #CC66FF, #99FFFF);
+  margin: 0px 0px 0px 0px;
+}
+
+#image {
+  width: 100%;
+  display: block;
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
+  border-radius: 4%;
+  filter: drop-shadow(2px 2px 2px #888888);
+}
+
+#img-caption {
+  text-align: right;
+  margin-right: 12px;
+  margin-top: 10px;
+  color: #777777;
+}
+
+.img-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
+  max-width: 500px;
+  width: 60%;
+}
+
+#tribute-info {
+  text-indent: 50px;
+  width: 60%;
+  margin: 0 auto 0 auto;
+  letter-spacing: .015rem;
+  color: #444444;
+  line-height: 1.5rem;
+}
+
+.artist-name {
+  font-weight: bold;
+  color: blue;
+}
+.artist-name:active {
+  color: #99FFFF;
+}
+
+#tribute-links-div {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 40%;
+  min-width: 200px;
+  background: linear-gradient( 
+            to right, #f32170, #ff6b08, 
+             #cf23cf, #eedd44); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  padding: 8px 0px 8px 0px;
+  filter: drop-shadow(2px 2px 2px #888888);
+}
+
+#tribute-link {
+  color: #444444;
+}
+#tribute-link:hover {
+  color: #CC66FF;
+}
+#tribute-link:active {
+  color: #99FFFF;
+}
+
+hr {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first-word {
+  font-size: 20px;
+  font-weight: bold;
+}
